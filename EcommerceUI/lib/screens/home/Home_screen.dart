@@ -1,13 +1,24 @@
+import 'package:EcommerceUI/screens/home/Body.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:EcommerceUI/screens/home/Body.dart';
 
-class Home extends StatefulWidget {
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: buildAppBar(),
+      body: Body(),
+    );
+  }
+
+  AppBar buildAppBar() {
+    return AppBar(
+      elevation: 0,
+      leading: IconButton(
+        icon: SvgPicture.asset("assets\icons\menu.svg"),
+        onPressed: () {},
+      ),
+    );
   }
 }
