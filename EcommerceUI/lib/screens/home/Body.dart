@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'Header-with-search.dart';
 import 'Rec-more.dart';
 import 'RecomandProduct.dart';
+import 'bottomPrudact.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -24,6 +25,18 @@ class Body extends StatelessWidget {
             ),
           ),
           RecomamnedProduct(),
+          Container(
+            height: 24,
+            child: Stack(
+              children: <Widget>[
+                RecomandedMore(
+                  title: 'Fautured Smart',
+                  press: () {},
+                ),
+              ],
+            ),
+          ),
+          BottomProducts(size: size),
         ],
       ),
     );

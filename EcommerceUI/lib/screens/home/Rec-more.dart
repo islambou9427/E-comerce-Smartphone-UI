@@ -18,7 +18,7 @@ class RecomandedMore extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Text(
-            'Recomended',
+            '$title',
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           Spacer(),
