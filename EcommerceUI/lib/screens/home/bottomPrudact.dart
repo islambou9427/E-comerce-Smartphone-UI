@@ -40,7 +40,6 @@ class BottomProducts extends StatelessWidget {
                 right: 20),
             width: size.width * 0.8,
             height: 180,
-            // child: Image.asset('assets/images/bottom_img_2.png'),
           ),
         ],
       ),

@@ -9,7 +9,6 @@ void main() {
     theme: ThemeData(
       scaffoldBackgroundColor: kBackgroundColor,
       primaryColor: kPrimaryColor,
-      //textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
       visualDensity: VisualDensity.adaptivePlatformDensity,
     ),
     home: Home(),
