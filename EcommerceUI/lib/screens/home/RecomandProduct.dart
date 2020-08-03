@@ -1,3 +1,4 @@
+import 'package:EcommerceUI/details/componants/Dtails_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
@@ -18,14 +19,26 @@ class RecomamnedProduct extends StatelessWidget {
             title: 'samsung',
             country: 'chine',
             price: 600,
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreens(),
+                  ));
+            },
           ),
           RecommendeSmart(
             image: 'assets/images/image_2.png',
             title: 'samsung',
             country: 'chine',
             price: 600,
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreens(),
+                  ));
+            },
           ),
           RecommendeSmart(
             image: 'assets/images/image_3.png',
@@ -39,7 +52,13 @@ class RecomamnedProduct extends StatelessWidget {
             title: 'samsung',
             country: 'chine',
             price: 600,
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreens(),
+                  ));
+            },
           ),
         ],
       ),
