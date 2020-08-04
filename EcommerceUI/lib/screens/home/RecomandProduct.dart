@@ -15,7 +15,7 @@ class RecomamnedProduct extends StatelessWidget {
       child: Row(
         children: <Widget>[
           RecommendeSmart(
-            image: 'assets/images/image_1.png',
+            image: 'assets/images/1.jpg',
             title: 'samsung',
             country: 'chine',
             price: 600,
@@ -28,7 +28,7 @@ class RecomamnedProduct extends StatelessWidget {
             },
           ),
           RecommendeSmart(
-            image: 'assets/images/image_2.png',
+            image: 'assets/images/1.jpg',
             title: 'samsung',
             country: 'chine',
             price: 600,
@@ -41,14 +41,7 @@ class RecomamnedProduct extends StatelessWidget {
             },
           ),
           RecommendeSmart(
-            image: 'assets/images/image_3.png',
-            title: 'samsung',
-            country: 'chine',
-            price: 600,
-            press: () {},
-          ),
-          RecommendeSmart(
-            image: 'assets/images/image_3.png',
+            image: 'assets/images/3.jpg',
             title: 'samsung',
             country: 'chine',
             price: 600,
